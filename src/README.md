@@ -1,18 +1,16 @@
-### Import necessary libraries that will be used
+_The below steps directly reference the .ipynb in this directory_
+
+Import necessary libraries that will be used
 
 ## Step 1: Data acquisition
 
 Below is a function that takes two inputs, the API endpoint (either 'pagecounts' or 'pageviews') and the access parameter. For pagecounts the access parameter can be 'all-sites', 'desktop-site', or 'mobile-site'. For pageviews the access parameter can be 'desktop', 'mobile-app', or 'mobile-web'. The function fills in all other parameters for an API call (thanks Jonathan and Oliver!), and returns the API response.
 
-### Run the above function to call the API and assign the responses to variables
+Run the above function to call the API and assign the responses to variables
 
-### Export the API raw data files
-
-This section has been commented out in order to not continuously overwrite the raw data files. The raw data files have already been created and will be imported in the next step.
+Export the API raw data files. This section has been commented out in order to not continuously overwrite the raw data files. The raw data files have already been created and will be imported in the next step.
 
 ## Step 2: Data processing
-
-### Import the API raw data files
 
 Import the raw .json files to process and create a new file for analysis.
 
@@ -22,7 +20,7 @@ Import the raw .json files to process and create a new file for analysis.
 
 `lookup_val` takes the arrays created from the prior functions as one input and a date as a second input. It uses the date to find the index within the array from column 1 (timestamp) and returns the value from that same index in column 2 (counts/views). If the date is not within the array, then a value of 0 is assigned.
 
-### Run the above functions to get all of the views/counts for both the legacy and current API
+Run the above functions to get all of the views/counts for both the legacy and current API
 
 ### Processing
 
@@ -32,17 +30,11 @@ Second, we initialize five (one for each API response) lists where we will obtai
 
 Third, we need to aggregate the two mobile sets of data from pageviews to get the total mobile data. For both pagecounts and pageviews we aggregate the desktop counts/views and mobile counts/views to get the total views for each.
 
-### DataFrame
-
 Convert to pandas DataFrame for easy export.
 
-### Export data in single csv
-
-This section has been commented out in order to not continuously overwrite the cleaned data file. The cleaned data file has already been created and will be imported in the next step.
+Export data in single csv. This section has been commented out in order to not continuously overwrite the cleaned data file. The cleaned data file has already been created and will be imported in the next step.
 
 ## Step 3: Analysis
-
-### Import the cleaned data (.csv)
 
 Import the cleaned data file to use for analysis.
 
