@@ -22,7 +22,7 @@ https://wikimediafoundation.org/wiki/Terms_of_Use/en
 
 ### Cleaned data
 
-The cleaned data file is in a `.csv` format and contains eight columns in with the following format:
+The [cleaned data](../data_clean) file is in a `.csv` format and contains eight columns in with the following format:
 
 column name | value
 --- | ---
