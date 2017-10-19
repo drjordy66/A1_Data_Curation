@@ -1,6 +1,6 @@
 ### Cleaned data
 
-The cleaned data was created using the [raw data](../raw_data) on 10/19/2017.
+The cleaned data was created using the [raw data](../tree/data_raw) on 10/19/2017.
 
 The cleaned data file is in a `.csv` format and contains eight columns in with the following format:
 
