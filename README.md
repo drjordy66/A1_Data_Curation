@@ -1,5 +1,29 @@
 # A1_Data_Curation
 
+## Organization of the project
+
+The project has the following structure:
+
+```
+data-512-a1/
+  |- analysis
+     |- README.md
+     |- analysis.png
+  |- data_clean
+     |- README.md
+     |- en-wikipedia_traffic_200801-201709.csv
+  |- data_raw
+     |- README.md
+     |- pagecounts_desktop-site_200801-201608.json 
+     |- pagecounts_mobile-site_201410-201608.json 
+     |- pageviews_desktop_201507-201709.json 
+     |- pageviews_mobile-app_201507-201709.json 
+     |- pageviews_mobile-web_201507-201709.json 
+  |- src
+     |- README.md
+     |- hcds-a1-data-curation.ipynb
+```
+
 ### Goal
 
 The goal of this assignment is to construct, analyze, and publish a dataset of monthly traffic on English Wikipedia from January 1 2008 through September 30 2017.
