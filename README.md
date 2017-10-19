@@ -43,4 +43,6 @@ The pagecounts (legacy) data includes spiders/crawlers, whereas the pageviews da
 
 While the data requested from the API pull spans 01/01/2008 to 10/01/2017 (MM/DD/YYYY), the pagecounts data only spans 01/01/2008 to 08/01/2016. During this final month, the number of views appear significantly lower such that they could be deemed an outlier as the API pull may not have pulled views for the entire month of 08/2016 (MM/YYYY). As such, this month was included in the cleaned data, but is removed when visualizing during the analysis.
 
+### Additional attribution(s)
+
 Relevant information pertaining to this assignment and API documentation was gathered from HCDS (Fall 2017) Assignments. CC-BY-SA 3.0
