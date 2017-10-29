@@ -6,20 +6,20 @@ The project has the following structure:
 
 ```
 data-512-a1/
-  |- analysis
+  |- analysis/
      |- README.md
      |- analysis.png
-  |- data_clean
+  |- data_clean/
      |- README.md
      |- en-wikipedia_traffic_200801-201709.csv
-  |- data_raw
+  |- data_raw/
      |- README.md
      |- pagecounts_desktop-site_200801-201608.json 
      |- pagecounts_mobile-site_201410-201608.json 
      |- pageviews_desktop_201507-201709.json 
      |- pageviews_mobile-app_201507-201709.json 
      |- pageviews_mobile-web_201507-201709.json 
-  |- src
+  |- src/
      |- README.md
      |- hcds-a1-data-curation.ipynb
 ```
@@ -46,7 +46,7 @@ https://wikimediafoundation.org/wiki/Terms_of_Use/en
 
 ### Cleaned data
 
-The [cleaned data](/data_clean) file is in a `.csv` format and contains eight columns in with the following format:
+The [cleaned data](/data_clean) file is in a `.csv` format and contains eight columns in the following format:
 
 column name | value
 --- | ---
