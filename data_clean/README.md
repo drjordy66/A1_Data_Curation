@@ -2,7 +2,7 @@
 
 The cleaned data was created using the [raw data](../data_raw) on 10/19/2017.
 
-The cleaned data file is in a `.csv` format and contains eight columns in with the following format:
+The cleaned data file is in a `.csv` format and contains eight columns in the following format:
 
 column name | value
 --- | ---
