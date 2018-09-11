@@ -1,4 +1,4 @@
-# A1_Data_Curation
+# Data Curation
 
 ## Organization of the project
 
